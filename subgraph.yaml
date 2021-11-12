@@ -21,7 +21,7 @@ dataSources:
         - Transfer
       abis:
         - name: BathToken
-          file: ./abis/bathToken.json
+          file: ./abis/BathToken.json
       eventHandlers:
         - event: Approval(indexed address,indexed address,uint256)
           handler: handleApproval
